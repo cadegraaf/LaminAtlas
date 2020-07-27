@@ -1,0 +1,28 @@
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_503942_S01.tif -designfile ../../arrayLayouts/100718_MM8_Economy_03_HX1.ndf -output ../all.pair.rarDir/CMF_503942_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504004_S01.tif -designfile ../../arrayLayouts/100718_MM8_Economy_03_HX1.ndf -output ../all.pair.rarDir/CMF_504004_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504022_S01.tif -designfile ../../arrayLayouts/100718_MM8_Economy_03_HX1.ndf -output ../all.pair.rarDir/CMF_504022_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504023_S01.tif -designfile ../../arrayLayouts/100718_MM8_Economy_03_HX1.ndf -output ../all.pair.rarDir/CMF_504023_S01 -verbose -dyeswap
+
+
+
+
+
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504023_S01.tif -designfile ../../arrayLayouts/080429_MM9_LP_Tiling_HX1.ndf -output ../all.pair.rarDir/CMF_504023_S01 -verbose -dyeswap
+
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504022_S01.tif -designfile ../../arrayLayouts/080429_MM9_LP_Tiling_HX1.ndf -output ../all.pair.rarDir/CMF_504022_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_504004_S01.tif -designfile ../../arrayLayouts/080429_MM9_LP_Tiling_HX1.ndf -output ../all.pair.rarDir/CMF_504004_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_503942_S01.tif -designfile ../../arrayLayouts/080429_MM9_LP_Tiling_HX1.ndf -output ../all.pair.rarDir/CMF_503942_S01 -verbose -dyeswap
+
+
+
+#table(RG\$genes\$status)
+#RG\$genes\$Status[RG\$genes\$GENE_EXPR_OPTION == "EXPERIMENTAL"] <- "Probe"
+#RG\$genes\$Status[RG\$genes\$GENE_EXPR_OPTION == "RANDOM"] <- "Random"
+#table(RG\$genes\$status)
+
+
+
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_539823_S03.tif -designfile ../../arrayLayouts/090310_LP_til_HX1.ndf -output ../dataFromDaan/human/CMF_539823_S03 -verbose -dyeswap
+
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_500009_HX12_S01.tif -designfile ../../arrayLayouts/090310_LP_til_HX1.ndf -output ../dataFromDaan/human/CMF_500009_HX12_S01 -verbose -dyeswap
+./nimbleScanPair2rData.pl -input /mnt/CMF-resstore/2011-05/13/CMF_539823_S01.tif -designfile ../../arrayLayouts/090310_LP_til_HX1.ndf -output ../dataFromDaan/human/CMF_539823_S01 -verbose -dyeswap
